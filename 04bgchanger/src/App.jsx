@@ -71,24 +71,12 @@ function App() {
           className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
           style={{backgroundColor: "pink"}}
           >Pink</button>
-          {/* Gray */}
-          <button 
-          onClick={() => setColor("gray")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "gray"}}
-          >Gray</button>
           {/* Orange */}
           <button 
           onClick={() => setColor("orange")}
           className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
           style={{backgroundColor: "orange"}}
           >Orange</button>
-          {/* Lime */}
-          <button 
-          onClick={() => setColor("lime")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "lime"}}
-          >Lime</button>
           {/* Teal */}  
           <button 
           onClick={() => setColor("teal")}
@@ -119,102 +107,12 @@ function App() {
           className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
           style={{backgroundColor: "violet"}}
           >Violet</button>
-          {/* Pink */}
-          <button 
-          onClick={() => setColor("pink")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "pink"}}
-          >Pink</button>
           {/* Gray */}
           <button 
           onClick={() => setColor("cyan")}
           className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
           style={{backgroundColor: "cyan"}}
           >Cyan</button>
-          {/* Magenta */}
-          <button 
-          onClick={() => setColor("magenta")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "magenta"}}
-          >Magenta</button>
-          {/* Lime */}
-          <button 
-          onClick={() => setColor("lime")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "lime"}}
-          >Lime</button>
-          {/* Teal */}
-          <button 
-          onClick={() => setColor("indigo")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "indigo"}}
-          >Indigo</button>
-          {/* Violet */}
-          <button 
-          onClick={() => setColor("pink")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "pink"}}
-          >Pink</button>
-          {/* Gray */}
-          <button 
-          onClick={() => setColor("gray")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "gray"}}
-          >Gray</button>
-          {/* Orange */}
-          <button   
-          onClick={() => setColor("orange")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "orange"}}
-          >Orange</button>
-          {/* Lime */}
-          <button 
-          onClick={() => setColor("lime")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "lime"}}
-          >Lime</button>
-          {/* Teal */}
-          <button   
-          onClick={() => setColor("teal")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "teal"}}
-          >Teal</button>
-          {/* Navy */}
-          <button   
-          onClick={() => setColor("navy")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "navy"}}
-          >Navy</button>
-          {/* Maroon */}
-          <button     
-          onClick={() => setColor("maroon")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "maroon"}}
-          >Maroon</button>
-          {/* Indigo */}
-          <button 
-          onClick={() => setColor("indigo")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "indigo"}}
-          >Indigo</button>
-          {/* Violet */}
-          <button 
-          onClick={() => setColor("pink")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "pink"}}
-          >Pink</button>
-          {/* Gray */}
-          <button 
-          onClick={() => setColor("gray")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "gray"}}
-          >Gray</button>
-          {/* Orange */}
-          <button     
-          onClick={() => setColor("orange")}
-          className="outline-none px-4 py-1 rounded-md text-white shadow-lg"
-          style={{backgroundColor: "orange"}}
-          >Orange</button>
         </div>
       </div>
     </div>
