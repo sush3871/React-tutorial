@@ -1,7 +1,7 @@
 import React from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { login, logout, signup } from './store/authSlice'
-import { HomePage } from './HomePage'
+// import { HomePage } from './HomePage'
 
 function App() {
   const { user, isLoggedIn } = useSelector((state) => state.auth)
