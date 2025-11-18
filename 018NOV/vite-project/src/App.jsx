@@ -1,38 +1,34 @@
-import './App.css'
-import EnhancedComponent from './components/Greet'
-// import EnhancedComponent from './components/Greet'
-// import Parent from './components/Parent'
-// import { CarProvider } from './contexts/CarContext'
-// import { UserProvider } from './contexts/UserContext'
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
-import React, {useState} from 'react'
-import Modal from './components/Modal'
-function App() {
-
-  const [isModalOpen, setIsModalOpen] = useState(false)
-
-  return (
-    <>
-    {/* <UserProvider>
-      <CarProvider>
-      <Parent />
-      </CarProvider>
-    </UserProvider> */}
-
-{/* <EnhancedComponent name = "sushant" /> */}
-
-      {/* <div>
-        hi
-        <Modal isOpen={isModalOpen}>
-          <h1>IHIHI i am modal</h1>
-        <button onClick={() => setIsModalOpen(false)}>close</button>
-
-        </Modal>
-
-        <button onClick={() => setIsModalOpen(true)}>open</button>
-      </div> */}
-    </>
-  )
+function Home() {
+  return <h1>Home Page</h1>;
 }
 
-export default App
+function About() {
+  return <h1>About Page</h1>;
+}
+
+function Contact() {
+  return <h1>Contact Page</h1>;
+}
+
+const App = () => {
+  return (
+    <Router>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
+  );
+};
+
+export default App;
