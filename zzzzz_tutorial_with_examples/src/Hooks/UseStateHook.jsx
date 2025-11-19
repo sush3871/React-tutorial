@@ -22,7 +22,7 @@ const UseStateHook = () => {
   }
   return (
     <>
-    <h1 className='text-2xl text-red-600 font-bold'>UseState Hook Example</h1>
+    <h1 className='text-2xl text-red-500 font-bold'>UseState Hook Example</h1>
     <div>Count is {count}</div>
     <div className='flex gap-2 mt-3'>
       
